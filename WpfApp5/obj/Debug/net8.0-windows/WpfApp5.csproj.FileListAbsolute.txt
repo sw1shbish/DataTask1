@@ -23,3 +23,4 @@ C:\Users\user\RiderProjects\artemon\WpfApp5\WpfApp5\obj\Debug\net8.0-windows\Wpf
 C:\Users\user\RiderProjects\artemon\WpfApp5\WpfApp5\obj\Debug\net8.0-windows\WpfApp5.csproj.Up2Date
 C:\Users\user\RiderProjects\artemon\WpfApp5\WpfApp5\obj\Debug\net8.0-windows\Windows\WindowNewTask.g.cs
 C:\Users\user\RiderProjects\artemon\WpfApp5\WpfApp5\obj\Debug\net8.0-windows\Windows\WindowNewTask.baml
+C:\Users\user\RiderProjects\artemon\WpfApp5\WpfApp5\obj\Debug\net8.0-windows\WpfApp5.sourcelink.json

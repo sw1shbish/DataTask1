@@ -19,12 +19,9 @@ public class TaskControlilers
     {
         if (!File.Exists("tasks.json"))
             Save();
-        {
+        
             var jsonOpen = File.ReadAllText("tasks.json");
             _tasks = JsonConvert.DeserializeObject<IList<DayTask>>(jsonOpen) ?? new List<DayTask>();
-            
-        }
-        
     }
 
     public void AddNewTask(DayTask task)

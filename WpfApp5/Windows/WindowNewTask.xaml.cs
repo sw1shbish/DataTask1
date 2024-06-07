@@ -19,10 +19,11 @@ public partial class WindowNewTask : Window
             Id = Guid.NewGuid(),
             Date = DateOnly.FromDateTime(Calendar.SelectedDate ?? DateTime.Today),
             Name = TbName.Text,
-            Description = TbDescription.Text
+            Description = TbDescription.Text,
         };
         taskController.AddNewTask(task);
         Close();
     }
 }
 
+   

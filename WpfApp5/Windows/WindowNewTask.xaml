@@ -8,10 +8,10 @@
         Title="WindowNewTask" Height="450" Width="800">
     <Grid>
         <StackPanel>
-            <TextBox Name="TbName">Имя задачи</TextBox>
-            <TextBox Name="TbDescription">Описание задание</TextBox>
+            <TextBox Name="TbName">Имя задачи:</TextBox>
+            <TextBox Name="TbDescription">Описание задание:</TextBox>
             <Calendar Name="Calendar"></Calendar>
-            <Button Name="BtnAdd" Click="BtnAdd_OnClick">Добавить</Button>
+            <Button Name="BtnAdd" Click="BtnAdd_OnClick"> </Button>
         </StackPanel>
     </Grid>
 </Window>

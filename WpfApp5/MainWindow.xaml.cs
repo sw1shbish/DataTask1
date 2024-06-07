@@ -29,6 +29,8 @@ public partial class MainWindow : Window
         windows.Show();
     }
 
+  
+
     private void Calendar_OnSelectedDataChanged(object? sender, SelectionChangedEventArgs e)
     {
         if (e.AddedItems.Count == 0)
@@ -38,5 +40,19 @@ public partial class MainWindow : Window
         {
             LbData.ItemsSource = taskControlilers.Get(DateOnly.FromDateTime(dateTime));
         }
+        
+    }
+
+    private void BtnDel_OnClick(object sender, RoutedEventArgs e)
+    {
+        if (MessageBox.Show("Вы действительно хотите удалить запись?", "Внимание", MessageBoxButton.YesNo) == MessageBoxResult.No)
+        {
+            return;
+        }
+
+        Button button = (Button)e.Source;
+        TaskControlilers controlilers = new TaskControlilers();
+        controlilers.DeleteTask(button.Content.ToString());
+
     }
 }

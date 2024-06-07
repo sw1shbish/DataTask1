@@ -19,13 +19,12 @@
                         <DataTemplate>
                             <StackPanel>
                                 <TextBlock Text="{Binding Path= Name}"></TextBlock>
-                                <TextBlock Text="{Binding Path= Description}">Описание</TextBlock>
-                                <Button>Удалить</Button>
+                                <TextBlock Text="{Binding Path= Description}"> Описание:</TextBlock>
+                                <Button Content = "{Binding Path=Id}" Click="BtnDel_OnClick" x:Name="BtnDel"></Button>
                             </StackPanel>
                         </DataTemplate>
                     </ListBox.ItemTemplate></ListBox>
             </StackPanel>
-        </StackPanel>
-
+        </StackPanel> 
     </Grid>
 </Window>
